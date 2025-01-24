@@ -1,0 +1,104 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  
+}
+nav{
+  background-color: white;
+  padding-top:30px;
+  overflow: hidden;
+}
+.logo{
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  margin-left: 55px;
+  padding-top: 20px !important;;
+}
+nav  ul{
+   list-style: none;
+   display: inline;
+   
+  }  
+  ul li{
+    display: inline;
+    padding: 16px;
+    color: #333;
+    font-size: 25px;
+    position: relative;
+    left: 30%;
+    
+  }
+  ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+  }
+
+.name{
+  float:right;
+  border: none;
+  background-color: #E8F7FF;
+  border-radius: 19px;
+  padding: 26px 21px;
+  text-align: center;
+  text-decoration: none;
+  color: #3ba6ec;
+  font-size: 22px;
+  position: relative;
+  top: -15px;
+  margin-right: 70px;
+  }
+   .tag{
+    color: #9ED9FF ;
+  }
+  
+.hero{
+  background-color: #f2f2f2;
+  padding: 130px 0;
+}
+.hero-content{
+  float: left;
+  width:50%;
+  padding: 51px 145px;
+  position: relative;
+  bottom: 10%;
+}
+.hero-content h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom:16px;
+  margin-top: 10px;
+}
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: grey;
+}
+.book-button{
+  background-color: #197ae2;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 28px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  
+  
+  
+}
+.hero-image img{
+  width: 52vh;
+  height: 50vh;
+  position: relative;
+  top: 30%;
+}
+
